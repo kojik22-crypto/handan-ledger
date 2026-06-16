@@ -28,8 +28,9 @@
 
 ## 書いている人
 
-岐阜の農事組合法人（水稲・麦・大豆ほか132ha／359圃場）の理事。
-事務職（会計）から農業経営へ越境し、農業オペレーション×管理会計×データ分析を
+日本の農事組合法人（水稲・麦・大豆ほか132ha／359圃場）の理事。
+事務職（会計）から農業経営へ越境し、
+農業オペレーション×管理会計×データ分析×AI（LLM）活用を
 一人の中で同時に持つことを試している。
 
 ## 構成
@@ -40,3 +41,63 @@
 
 ここは助言ではない。一当事者の判断記録であり、再現性も正しさも保証しない。
 特定の組織・個人を不利にする情報、守秘義務の対象は一切置かない。
+
+---
+
+## English
+
+# handan-ledger — Judgment Ledger
+
+A working notebook where a director of a 132-hectare farming corporation publishes
+the most meaningful of his settled findings, each paired with the conditions under
+which he would retract it, and keeps appending the results of periodic re-testing.
+
+## What this is
+
+Decisions in management and in life teach you little if you only look at outcomes.
+The better the judgment, the more "nothing happens" — so it disappears from view
+in hindsight. So here I publish the findings I've decided to treat as settled,
+paired with "what would make me throw this away" (the retraction conditions).
+Then I periodically hold them up against reality and append whether they survived
+or were rewritten.
+
+I don't delete the records I got wrong. If anything, the moment a finding is
+retracted is where the most learning is.
+
+## Three rules
+
+1. Attach a friction score — how much unease remains about the finding, on a 0–5
+   scale. A self-declared confidence level.
+2. Write the retraction conditions in advance — "if I see this, I throw this
+   finding away," stated before the result is known. This structurally blocks
+   moving the goalposts after the fact.
+3. Append only; never rewrite — once an entry is committed, the body is never
+   edited or deleted. Re-verifications are only added to the same file. The track
+   record is proven by Git's timestamps.
+
+## Why do this
+
+The quality of a judgment can't be measured by whether it turned out right.
+It shows only in "can you state the conditions for being wrong in advance" and
+"can you leave the record standing when you are wrong." This is a discipline I
+impose on myself, and a primary source for others in the same position.
+
+## Who writes this
+
+A director of an agricultural cooperative corporation in Japan
+(rice, wheat, soybeans and more; 132 ha / ≈330 acres across 359 separate fields —
+large and heavily fragmented by Japanese standards). Having crossed over from
+clerical accounting into farm management, I'm testing what it means to hold
+farm operations, management accounting, data analysis, and AI/LLM use
+at once inside one person.
+
+## Structure
+
+- chiken/ … published settled findings. Each entry carries its retraction
+  conditions and an ongoing re-verification log.
+
+## Note
+
+This is not advice. It is one practitioner's record of judgment, with no guarantee
+of reproducibility or correctness. Nothing under confidentiality, and no information
+that would disadvantage any specific organization or individual, is placed here.
