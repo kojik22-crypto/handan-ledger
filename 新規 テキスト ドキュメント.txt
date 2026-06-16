@@ -1,0 +1,4 @@
+cd /d "C:\C_claude_workspace\蓄積システム\handan-ledger"
+git add -A
+git commit -m "2026-06-16 初コミット：公開判断台帳の立ち上げ"
+git push -u origin main
